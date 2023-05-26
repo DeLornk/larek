@@ -3,6 +3,9 @@
 
 Репозиторий с кодом для ВКР "Адаптивное управление ассортиментом и запасами автономной торговой точки" (Митяй Герман Витальевич)
 
+#### Пример работы
+![](work_gif.gif)
+
 #### Необходимые данные для работы
 
 * [Ссылка](https://drive.google.com/drive/folders/1DqqlrWkxWvYZdCnmdz8kgCH_AjtobbmQ?usp=share_link) на скачивание данных для обучения, а также результатов: `.csv` файлов для вывода в Streamlit. Вес более 2.5 ГБ
@@ -30,4 +33,4 @@
 * Иначе
   * Оптимизируем и обучаем модели в ноутбуках `optimization_forcasting.ipynb`, `optimization_recommendations.ipynb`, сохраняя модели в `./optimization_models/`
   * Генерируем прогноз и рекомендации `create_forecast.py`, `create_recommendations.py`, сохраняя результаты в `./data/results/`
-  * Запускаем `main.py`
+  * Запускаем из консоли `main.py` с помощью команды `streamlit run main.py`
