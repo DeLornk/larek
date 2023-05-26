@@ -29,7 +29,7 @@
 ```
 #### Схема запуска сервиса
 
-* В случае предварительной загрузки результатов - только запускаем `main.py`
+* В случае предварительной загрузки результатов - только запускаем из консоли `main.py` с помощью команды `streamlit run main.py`
 * Иначе
   * Оптимизируем и обучаем модели в ноутбуках `optimization_forcasting.ipynb`, `optimization_recommendations.ipynb`, сохраняя модели в `./optimization_models/`
   * Генерируем прогноз и рекомендации `create_forecast.py`, `create_recommendations.py`, сохраняя результаты в `./data/results/`
