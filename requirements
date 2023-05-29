@@ -1,0 +1,13 @@
+catboost==1.1.1
+pandas==1.5.3
+tqdm==4.64.1
+optuna==3.1.1
+darts==0.24.0
+gdown==4.7.1
+lightfm==1.17
+numpy==1.23.5
+joblib==1.2.0
+matplotlib==3.6.3
+scikit-learn==1.2.2
+shap==0.41.0
+streamlit==1.22.0
